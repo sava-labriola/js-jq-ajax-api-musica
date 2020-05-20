@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: DarkSlateGrey;
+}
+
+.container {
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: DarkSlateBlue;
+    margin: 2px;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.poster {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.title {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.author {
+    font-size: 10px;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.genre, .year {
+    font-size: 10px;
+}
+
+.title, .author, .genre, .year {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    color: lightgray;
+}
